@@ -1,4 +1,4 @@
-# Node.js Microservice bootstrap
+# Node.js Microservice Bootstrap
 
 This bootstrap repo has the following dependencies:
 
