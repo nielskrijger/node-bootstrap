@@ -1,0 +1,39 @@
+{
+  "name": "node-microservice-bootstrap",
+  "description": "A basic setup for a node.js backend service running on Express.",
+  "author": "Niels Krijger <niels@kryger.nl>",
+  "contributors": [
+    "Niels Krijger <niels@kryger.nl"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/yahapi/node-yahapi.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:yahapi/node-yahapi.git"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "gulp ci"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "devDependencies": {
+    "chai": "~2.0.0",
+    "coveralls": "~2.11.2",
+    "del": "^1.1.1",
+    "gulp": "~3.8.11",
+    "gulp-coveralls": "~0.1.3",
+    "gulp-help": "~1.3.3",
+    "gulp-istanbul": "~0.6.0",
+    "gulp-jshint": "~1.9.2",
+    "gulp-mocha": "~2.0.0",
+    "jshint-stylish": "~1.0.0",
+    "run-sequence": "~1.0.2",
+    "supertest": "~0.15.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "compression": "^1.4.3"
+  }
+}
